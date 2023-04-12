@@ -9,10 +9,10 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(168, 207, 157);
+            background-color: rgb(202, 228, 195)
         }
         div{
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgb(0, 61, 0);
         position:absolute;
         top: 50%;
         left: 50%;
@@ -39,9 +39,33 @@
             background-color: darkgreen;
             cursor: pointer;
         }
+        
+        ul{
+            position: absolute;
+            top: 40%;
+            left: 12%;
+        }
+
+        span{
+    color: rgb(110, 42, 42);
+}
+
+#title{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background: none;
+position: absolute;
+top: 60%;
+left: 10%; 
+}
     </style>
 </head>
 <body>
+    <header><div id="title">
+        <h1><span>Paisagilizer</span></h1>
+    </header>
     <div>
         <h1>Criar Conta</h1>
         <input type="text" placeholder="Nome Completo" required>
@@ -54,5 +78,11 @@
         <br><br>
         <button>Cadastrar</button>
     </div>
+
+    <ul>
+        <img src="./components/imgs/icone.png" width="150px" height="150px">
+    </ul>
+
+
 </body>
 </html>

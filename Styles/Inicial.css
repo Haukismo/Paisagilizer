@@ -72,4 +72,8 @@ left: 35%;
 text-align: center;
 }
 
-
+ol{
+position: absolute;
+top: 2%;
+left: 16%;
+}
